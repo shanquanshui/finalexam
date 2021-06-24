@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奶茶美妆店</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/goods.css">
+</head>
+<body>
+    <div class="py-2" style="background-color:pink;">
+        <!-- 限定范围container text-right移到最右 -->
+        <div class="container text-right">
+            <!-- 放入a连结打入 a.-->
+            <!-- 将icon改成白色class="text-whiter" -->
+            <a href="#" class="text-dark"><i class="fab fa-weibo"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-weixin"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
+        <a class="navbar-brand" href="index.html">奶茶美妆店</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">面部</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">妆前</a>
+                <a class="dropdown-item" href="#">遮瑕</a>
+                <a class="dropdown-item" href="#">粉底</a>
+                <a class="dropdown-item" href="#">定妆</a>
+                <a class="dropdown-item" href="#">腮红</a>
+                <a class="dropdown-item" href="#">光影</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">眼部</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">睫毛膏</a>
+                <a class="dropdown-item" href="#">眼线</a>
+                <a class="dropdown-item" href="#">眼影</a>
+                <a class="dropdown-item" href="#">眉妆</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                唇部
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">唇膏</a>
+                <a class="dropdown-item" href="#">唇釉</a>
+                <a class="dropdown-item" href="#">唇部打底</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">美妆工具</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">粉底刷</a>
+                <a class="dropdown-item" href="#">胭脂刷</a>
+                <a class="dropdown-item" href="#">眼影刷</a>
+                <a class="dropdown-item" href="#">散粉刷</a>
+                <a class="dropdown-item" href="#">眉刷</a>
+                <a class="dropdown-item" href="#">工具刷</a>
+                <a class="dropdown-item" href="#">其他</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="Search" placeholder="搜索产品" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">搜索</button>
+          </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">        
+            <div class="col-md-4">
+                <!-- sticky-top固定 -->
+                <div class="top" style="top: 10px;">
+                    <div class="d-flex">
+                        <h1 class="h2">热卖产品</h1>
+                        <span class="h4 text-secondary pt-2 ml-2">(魅可丝缎柔雾唇膏)</span>
+                    </div>
+                    <img src="https://www.maccosmetics.com.cn/media/export/cms/home/homePage2021/product-%20nineGird-1%20Across-pc-02.jpg" alt="..." class="rounded" width="350px" height="400">
+                    <!-- justify-content-end align-items-end 让售价可以靠右边并且对齐底部 -->                                             
+                    <div class="h3 ml-auto mb-0">
+                        <small>网络价 NT$</small>
+                        <strong>175</strong>
+                    </div>
+                    <hr>颜色：
+                    <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
+                        <label class="btn active" style="background-color: #af3832;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"  checked> 316
+                        </label>
+
+                        <label class="btn" style="background-color: #a2402c;">
+                            <input type="radio" name="options" id="option1" autocomplete="off" disabled> 925
+                        </label>
+                        
+                        <label class="btn" style="background-color: #953831;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"> 926
+                        </label>
+
+                        <label class="btn" style="background-color: #ba3a39;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"> 923
+                        </label>
+
+                        <label class="btn" style="background-color: #c76864;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"> 314
+                        </label>
+
+                        <label class="btn" style="background-color: #b65451;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"> 930
+                        </label>
+
+                        <label class="btn" style="background-color: #5c362b;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"> 927
+                        </label>
+
+                        <label class="btn" style="background-color: #b51e3f;">
+                            <input type="radio" name="options" id="option1" autocomplete="off"> 306
+                        </label>
+                    </div>
+
+                    <div class="input-group mt-3">
+                        <select name="" id="number" class="form-control mr-1">
+                            <option value="1" style="color: #af3832;">316 DEVOTED TO CHILI 柔雾小辣椒</option>
+                            <option value="2" style="color: #a2402c;">925 MARRAKESH-MERE 摩洛哥红棕</option>
+                            <option value="3" style="color: #953831;">926 DUBONNET BUZZ 伯爵红茶</option>
+                            <option value="2" style="color: #ba3a39;">923 STAY CURIOUS 糖渍樱花</option>
+                            <option value="2" style="color: #c76864;">314 MULL IT OVER 白桃奶茶</option>
+                            <option value="2" style="color: #b65451;">930 BRICK THROUGH 转运豆沙</option>
+                            <option value="2" style="color: #5c362b;">927 TURN TO THE LEFT 可可茶棕</option>
+                            <option value="2" style="color: #b51e3f;">306 SHOCKING REVELATION 复古红莓</option>
+                        </select>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#editModal">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h2>魅可丝缎柔雾唇膏</h2>
+                <p class="mb-5">POWDER KISS LIPSTICK</p>
+                <h3 class="text-center">外观</h3>
+                <img src="https://www.maccosmetics.com.cn/media/export/cms/products/640x600/mac_sku_S4K031_640x600_0.jpg" class="w-100" alt="">
+
+                <h3 class="text-center">颜色</h3>
+                <img src="https://www.maccosmetics.com.cn/media/export/cms/products/smoosh_v2/mac_smoosh_S4K031.jpg" class="w-100" alt="">
+                
+                <h3 class="text-center">试色</h3>
+                <img src="https://img.alicdn.com/imgextra/i3/3170729146/O1CN01gZPEXr2HQv6DySRmP_!!3170729146.jpg" class="w-100" alt="">
+                <img src="https://img.alicdn.com/imgextra/i4/3170729146/O1CN012DRKKk2HQv4j3Eq1h_!!3170729146.jpg" class="w-100" alt="">
+                <img src="https://img.alicdn.com/imgextra/i3/3170729146/O1CN01D4Oqhe2HQv4fc3b81_!!3170729146.jpg" class="w-100" alt="">
+                <img src="https://img.alicdn.com/imgextra/i3/3170729146/O1CN01Dpo80b2HQv66Yc2jD_!!3170729146.jpg" class="w-100" alt="">
+                <div class="my-4  p-3" role="alert" style="background-color: black;">
+                    <h2 class="text-center h2">完整描述</h2>
+                    <p>这是一种模糊的软焦点颜色，这种无重量的水分哑光唇膏是用来复制后台技术的：混合哑光唇膏的边缘以产生朦胧效果。它的开创性配方包含滋润的粉状颜料，可以调理和滋润嘴唇。其结果是一个哑光唇膏的外观与垫子，轻的感觉的香膏。爱上这温柔的触摸，朦胧的哑光亲吻的颜色。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 py-3 text-center">
+        <div class="ml-10">
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-example-modal-lg">门店地址</button>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">加入我们</button>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-example-modal-lg2">客户服务</button>
+            <!-- <a href="#" >门店地址</a>
+            <a href="#">客户服务</a>
+            <a href="#">加入我们</a> -->
+        </div>
+        
+    </footer>
+
+    <div class="modal fade bd-example-modal-lg text-dark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <h5 class="modal-title" id=".bd-example-modal-lg">门店地址</h5>
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html xmlns="http://www.w3.org/1999/xhtml">
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+                <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+                <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+                <title>百度地图API自定义地图</title>
+                <!--引用百度地图API-->
+                <style type="text/css">
+                html,body{margin:0;padding:0;}
+                .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+                .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+                </style>
+                <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+            </head>
+
+            <body>
+
+                <!--百度地图容器-->
+
+                <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+            </body>
+            <script src="js/all.js"></script>
+            </html>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">加入我们</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                    <label for="username" class="col-form-label">姓名</label>
+                    <input type="text" class="form-control" id="username">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputtel" class="col-form-label">电话</label>
+                  <input type="tel" class="form-control" id="exampleInputtel">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="col-form-label">邮箱</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal fade bd-example-modal-lg2 text-dark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <h5 class="modal-title" id=".bd-example-modal-lg2">客户服务</h5>
+            如果产品遇到任何问题，请联系官方客服电话020-123456，我们将24小时为你服务。
+          </div>
+        </div>
+    </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+    

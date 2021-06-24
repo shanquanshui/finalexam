@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+footer{
+    background-color: pink;
+}
+.header-carousel-item{
+    height: 550px;
+}
+.form-control{
+    border-width: 3px;
+}
+.bg-cover{
+    background-size: cover;
+    background-position:center center;
+}
+
+.carousel-caption{
+    /* background-color: rgba(0, 0, 0, .4); */
+    color:black;
+    text-align: right;
+  
+}
+@media(min-width:760px){
+    .text-md-dark{
+        color: rgb(10, 8, 8);
+    }
+}

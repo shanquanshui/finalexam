@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奶茶美妆店</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <style>
+        body{
+            background-color: black;
+        }
+        footer{
+            background-color: pink;
+        }
+        .header-carousel-item{
+            height: 550px;
+        }
+        .form-control{
+            border-width: 3px;
+        }
+        .bg-cover{
+            background-size: cover;
+            background-position:center center;
+        }
+
+        .carousel-caption{
+            /* background-color: rgba(0, 0, 0, .4); */
+            color:black;
+            text-align: right;
+          
+        }
+        @media(min-width:760px){
+            .text-md-dark{
+                color: rgb(10, 8, 8);
+            }
+        }
+    </style> -->
+</head>
+<body>
+    <div class="py-2" style="background-color:pink;">
+        <!-- 限定范围container text-right移到最右 -->
+        <div class="container text-right">
+            <!-- 放入a连结打入 a.-->
+            <!-- 将icon改成白色class="text-whiter" -->
+            <a href="#" class="text-dark"><i class="fab fa-weibo"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-weixin"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
+        <a class="navbar-brand" href="table.html">奶茶美妆店</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">面部</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">妆前</a>
+                <a class="dropdown-item" href="#">遮瑕</a>
+                <a class="dropdown-item" href="#">粉底</a>
+                <a class="dropdown-item" href="#">定妆</a>
+                <a class="dropdown-item" href="#">腮红</a>
+                <a class="dropdown-item" href="#">光影</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">眼部</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">睫毛膏</a>
+                <a class="dropdown-item" href="#">眼线</a>
+                <a class="dropdown-item" href="#">眼影</a>
+                <a class="dropdown-item" href="#">眉妆</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                唇部
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">唇膏</a>
+                <a class="dropdown-item" href="#">唇釉</a>
+                <a class="dropdown-item" href="#">唇部打底</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">美妆工具</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">粉底刷</a>
+                <a class="dropdown-item" href="#">胭脂刷</a>
+                <a class="dropdown-item" href="#">眼影刷</a>
+                <a class="dropdown-item" href="#">散粉刷</a>
+                <a class="dropdown-item" href="#">眉刷</a>
+                <a class="dropdown-item" href="#">工具刷</a>
+                <a class="dropdown-item" href="#">其他</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="Search" placeholder="搜索产品" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">搜索</button>
+          </form>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item header-carousel-item bg-cover active" style="background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202003%2F11%2F20200311203654_kgxoq.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625467928&t=b1b2be9ca94fd84b6ab7373733c08c20)">
+                    <!--<img class="d-block w-100" src="..." alt="First slide"> -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <p style="font-size: 20px;">
+                        <span style="font-family: ano-bold_regular;font-size:45px;line-height:80px;">“权力”黑气垫</span>
+                        <br>
+                        高级雾面，持久不脱妆
+                        <br>
+                        易烊千玺同款，同步上线
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(https://www.maccosmetics.com.cn/media/export/cms/home/homePage2021/home_KV_pc_0330-01s.jpg)">
+                    <!--<img class="d-block w-100" src="..." alt="Second slide"> -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <p style="font-size: 20px;">
+                        <span style="font-family: ano-bold_regular;font-size:45px;line-height:55px;">24小时持妆
+                          <br>
+                          定制无暇粉底液
+                        </span>
+                        <br>
+                        清新遮瑕不浮粉，控油抗汗打造干净奶油肌
+                      </p>
+                    </div>
+                </div>
+                <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(https://www.dior.cn/couture/var/dior/storage/images/horizon/products/fp-pcd/folder-makeup/folder-lips/y0996213-rouge-dior-star-edition/04-cover-dazzling-metallic-lipstick/23924367-7-int-EN/04-cover-dazzling-metallic-lipstick.gif)">
+                    <!--<img class="d-block w-100" src="..." alt="Third slide"> -->
+                    <div class="carousel-caption d-none d-md-block">
+                      <p style="font-size: 20px;">
+                        <span style="font-family: ano-bold_regular;font-size:45px;line-height:55px;">
+                          熠熠一夏 
+                          <br>
+                          着我红妆
+                        </span>
+                        <br>
+                        全新烈艳蓝金唇膏星光限量版
+                      </p>
+                    </div>
+                </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <section>
+        <div class="py-5">
+            <div class="container">
+                <h2 class="text-center my-3 text-white">明星同款</h2><br>
+                <div class="card-deck">
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1958687027,1153591388&fm=224&gp=0.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Lisa同款</h5>
+                        <p class="card-text">流光焰火 限定唇膏</p>
+                        <p class="card-text"><small class="text-muted">#316柔雾小辣椒</small></p>
+                      </div>
+                    </div>
+                    <div class="card  text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201810%2F24%2F20181024130132_pamgt.jpg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625469514&t=88ad3fbb3c0e46aa554e8f4957ae5889" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">易烊千玺同款</h5>
+                        <p class="card-text">四宫格散粉 定妆粉 持妆 控油定妆</p>
+                        <p class="card-text"><small class="text-muted">四色散粉</small></p>
+                      </div>
+                    </div>
+                    <div class="card  text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp5.itc.cn%2Fq_70%2Fimages03%2F20201028%2Fabb357f0b7fd4554a8aa3b52f76c3d05.jpeg&refer=http%3A%2F%2Fp5.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625469959&t=998a2fd5e05ab24b4f49144c51df4259" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">王一博同款</h5>
+                        <p class="card-text">采用的砍刀造型，接近真眉毛般</p>
+                        <p class="card-text"><small class="text-muted">3.4g</small></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="py-5">
+            <div class="container">
+                <h2 class="text-center my-3 text-white">热门产品</h2><br>
+                <div class="card-deck">
+                    <div class="card  text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://www.dior.cn/beauty/version-5.1610097138807/resize-image/ep/460/498/90/0/%252FY0205731%252FV001%252FY0205731_C020573100_E01_GHC.jpg?imwidth=460" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Dior气垫</h5>
+                        <p class="card-text">超轻薄 超遮瑕 超水润 超长持妆 柔雾哑光妆效 超纤薄外盒 饰以浮雕高订经典花纹</p>
+                        <p class="card-text"><small class="text-muted">迪奥锁妆气垫*DIORMANIA金色限量版</small></p>
+                      </div>
+                    </div>
+                    <div class="card  text-white" style="background-color: black;">
+                      
+                      <img class="card-img-top" src="https://www.maccosmetics.com.cn/media/export/cms/home/homePage2021/product-%20nineGird-1%20Across-pc-02.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Mac唇膏</h5>
+                        <p class="card-text"><a href="goods.html" class="text-light">魅可丝缎柔雾唇膏</a></p>
+                        <p class="card-text"><small class="text-muted">3g</small></p>
+                      </div>
+                    </div>
+                    <div class="card  text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://ecuniplatform-static.giorgioarmanibeauty.cn/product/armani-master/default/GAC0/01_20/GAC00013/0810_2.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Armani粉底液</h5>
+                        <p class="card-text">阿玛尼纯净持妆粉底液 水感哑光的镁光灯粉底液能够保持丝绒质感</p>
+                        <p class="card-text"><small class="text-muted">阿玛尼纯净持妆粉底液</small></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="card bg-dark text-white">
+        <img class="card-img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170516%2F07a4ae0c017e4da4904fdfbdaf44b151.png&refer=http%3A%2F%2Fimg.mp.sohu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625471658&t=049fc67f36d6456cabfcad971dd1a1a1" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Armani</h5>
+          <p class="card-text">全新黑管唇膏</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="py-5">
+            <div class="container">
+                <h2 class="text-center my-3 text-white">限定系列</h2><br>
+                <div class="card-deck">
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2F3dac43b9-2082-461c-b3c8-2bb7d0d91976%40r_640w_640h.jpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625472701&t=5d47a101cab8b1ed2d77447347b0b761" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">TF唇膏</h5>
+                        <p class="card-text">故宫联名系列</p>
+                      </div>
+                    </div>
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.mgpyh.com%2Fpost_image%2F8c8d945d3f393ea2a25ed29cf147c285.jpg%21focus&refer=http%3A%2F%2Fimg.mgpyh.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625473120&t=9335891a3f647a1721233643c973b898" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">花西子</h5>
+                        <p class="card-text">百鸟朝凤限定礼盒</p>
+                      </div>
+                    </div>
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fspider.ws.126.net%2Fc4428defd796b45811adcb3460b3413e.gif&refer=http%3A%2F%2Fspider.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1625472653&t=f00eb0818c2e35832b212e202d80a7ea" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">YSL气垫</h5>
+                        <p class="card-text">圣罗兰蕾丝气垫限定</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="py-5">
+            <div class="container">
+                <h2 class="text-center my-3 text-white">夏日底妆</h2><br>
+                <div class="card-deck">
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://ecuniplatform-static.shuuemura.com.cn/product/shubeauty-master-catalog/default/images/MakeUp/54-100/SHU00084/1/584.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">shu uemura羽纱持妆粉底液</h5>
+                        <p class="card-text">创新羽纱质地，成膜轻透，持妆可呼吸。</p>
+                      </div>
+                    </div>
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://www.cledepeau-beaute.com.cn/dw/image/v2/BCSK_PRD/on/demandware.static/-/Sites-master-catalog-cpb/default/dw30f15e7b/images/2020_Nov_set/A16182-1.png?sw=1000&sh=1000&sm=fit" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">CPB光凝润采妆前霜</h5>
+                        <p class="card-text">细致肌理，有效控制油脂分泌，提升妆容持久度，让肌肤和底妆呈现通透光感。</p>
+                      </div>
+                    </div>
+                    <div class="card text-white" style="background-color: black;">
+                      <img class="card-img-top" src="https://www.narscosmetics.com.cn/dw/image/v2/BCSK_PRD/on/demandware.static/-/Sites-master-catalog-narscn/default/dw9a6fa719/images/n024/34105894_4.jpg?sw=856&sh=750&sm=fit" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Nars流光美肌轻透蜜粉饼</h5>
+                        <p class="card-text">打造柔焦雾面妆感，在多种光线下都熠熠生辉。</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 py-3 text-center">
+        <div class="ml-10">
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-example-modal-lg">门店地址</button>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">加入我们</button>
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target=".bd-example-modal-lg2">客户服务</button>
+            <!-- <a href="#" >门店地址</a>
+            <a href="#">客户服务</a>
+            <a href="#">加入我们</a> -->
+        </div>
+    </footer>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <h5 class="modal-title" id=".bd-example-modal-lg">门店地址</h5>
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            <html xmlns="http://www.w3.org/1999/xhtml">
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+                <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+                <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+                <title>百度地图API自定义地图</title>
+                <!--引用百度地图API-->
+                <style type="text/css">
+                html,body{margin:0;padding:0;}
+                .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+                .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+                </style>
+                <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+            </head>
+
+            <body>
+
+                <!--百度地图容器-->
+
+                <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+            </body>
+            <script src="js/all.js"></script>
+            </html>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">加入我们</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                    <label for="username" class="col-form-label">姓名</label>
+                    <input type="text" class="form-control" id="username">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputtel" class="col-form-label">电话</label>
+                  <input type="tel" class="form-control" id="exampleInputtel">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="col-form-label">邮箱</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <h5 class="modal-title" id=".bd-example-modal-lg2">客户服务</h5>
+            如果产品遇到任何问题，请联系官方客服电话020-123456，我们将24小时为你服务。
+          </div>
+        </div>
+    </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
